@@ -1,5 +1,5 @@
 #ignore static files
-src\staticfiles\vendors
+src/staticfiles/vendors
 
 # local cdn or local static file
 local-cdn/
