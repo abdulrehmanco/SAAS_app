@@ -40,6 +40,7 @@ if DEBUG:
 
 INSTALLED_APPS = [
     'visits',
+    'commando',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -127,7 +128,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_BASE_DIR = BASE_DIR/ "staticfiles"
-STATICFILES_VENDORS_DIR = STATICFILES_BASE_DIR/ "vendors"
+STATICFILES_BASE_DIR.mkdir(exist_ok=True, parents=True)
+STATICFILES_VENDOR_DIR = STATICFILES_BASE_DIR/ "vendors"
 
 #source for python manage.py collectstatic
 STATICFILES_DIRS = [
