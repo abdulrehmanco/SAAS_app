@@ -4,7 +4,7 @@ src/staticfiles/vendors
 # local cdn or local static file
 local-cdn/
 
-
+.env
 venv/
 # Byte-compiled / optimized / DLL files
 __pycache__/
